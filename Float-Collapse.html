@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+      <title>Float Collapse Definition and Issues</title>
+
+  </head>
+  <body>
+    <h1>Float Collapse</h1>
+
+    <p>Float is a positioning tool.  Its origin of name comes from print, which is text wrap.  When text would boarder an image or space by not touching that images' edge, it floated.  When text is surrounding an object on a web layout, the text can be commanded to either wrap or lay over the image.  Left and right float, none and inherit help position and float value from the elements' parent positioning.  The parent element in a web layout can be greatly affected by floating.  Float collapse can happen when parent elements contain only float elements.  If the background of the page is dark it's hard to notice whether you're having a collapse issue.  To fix a float collapse issue, you usually to care of it after the creation of it, but before the whole page is set.
+
+    <p>Float Collapse mainly causes height problems.  That's why elements in a webpage will appear as if they are over lapping or on top of each other.  Have no fear, there are many ways to fix this issue.  You could float the parent by semantically adding an additional float prior to the main float element you are planning to add after.  You could add a height to the parent element to avoid the overlay.  You could even a spacer element as a sibling next to the float element, but this isn't a semantic friendly solution.  There are many ways to fix float collapse, so choose wisely according to what's best for your page and layout.</p>
+
+    <h1>Sites</h1>
+ 
+    <a href="http://css-tricks.com/all-about-floats/" aref="Stackflow">CSS Tricks</a>
+    <a href="http://stackoverflow.com/questions/218760/how-do-you-keep-parents-of-floated-elements-from-collapsing" aref="Web Tool Kit">Stack Overflow</a>
+
+  </body>
+</html>
